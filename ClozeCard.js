@@ -1,14 +1,21 @@
-var clozeCards = function casicCards(text,cloze) {
+var clozecard = function clozecard(text,partial,cloze) {
     this.text = text;
+    this.partial = partial;
     this.cloze = cloze;
+    this.textDisplay = function() {
+        console.log(this.text)
+       };
     this.partialText = function() {
-      this.partialTextdata = this.text.replace(this.cloze, '----'); 
-     console.log(this.partialTextdata)
-    }
-    this.clozedisplay = function() {
+        console.log(this.partial)
+       };
+    this.clozeText = function() {
         console.log(this.cloze);
     };
 }
 
+
 module.exports = {
-	closeCards: clozeCards }
+    clozecard: clozecard }
+    
+    
+

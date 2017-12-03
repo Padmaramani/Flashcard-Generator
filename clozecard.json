@@ -1,0 +1,11 @@
+[
+    { "text": "The first American president was George Washington",
+      "cloze": "George Washington"   
+    },
+    {"text": "Mayflower landed in the year 1620",
+     "cloze": "1620"},
+    {"text" : "The civil war was lead by Abraham Lincoln",
+      "cloze" : "Abraham Lincoln"  
+    }
+    
+    ]

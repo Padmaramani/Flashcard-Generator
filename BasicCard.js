@@ -1,21 +1,13 @@
-var basicCards = function basicCards(front,back) {
+var basicCard = function basicCard(front,back) {
     this.front = front;
     this.back = back;
-    this.frontdisplay = function() {
-     console.log(this.front);
-    };
-    this.backdisplay = function() {
+    this.frontDisplay = function() {
+        console.log(this.front);
+      };
+    this.backDisplay = function() {
         console.log(this.back);
-    };
+      };
 }
 
-basicCards.prototype.frontdisplay = function() {
-    console.log(this.front);
-  };
-
-basicCards.prototype.backdisplay = function() {
-    console.log(this.front);
-  };
-
 module.exports = {
-	basicCards: basicCards }
+	basicCard: basicCard }

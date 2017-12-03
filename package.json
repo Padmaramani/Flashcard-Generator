@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Padmaramani/Flashcard-Generator#readme",
   "dependencies": {
-    "inquirer": "^4.0.1"
+    "clear": "0.0.1",
+    "inquirer": "^4.0.1",
+    "inquirer-recursive": "0.0.5",
+    "synchronize": "^2.0.0"
   }
 }
